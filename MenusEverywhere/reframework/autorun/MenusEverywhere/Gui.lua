@@ -3,6 +3,7 @@
 --   Enabled, Close stuck menus
 --   one section per menu (pause menu, then each camp or handler menu), each with presets
 --   folder contents and order, shared by every menu
+--   full Change Appearance switch
 
 local catalog = require("MenusEverywhere.Catalog")
 local config = require("MenusEverywhere.Config")
@@ -211,6 +212,12 @@ local function draw()
 	if imgui.tree_node("Folder contents and order") then
 		drawFolders()
 		imgui.tree_pop()
+	end
+	didChange, value = imgui.checkbox("Change Appearance edits everything (face, body, voice, saved designs)",
+		config.fullAppearance())
+	if didChange then
+		config.fullAppearance(value)
+		config.save() -- read when the screen opens, no menu to rebuild
 	end
 end
 

@@ -66,6 +66,7 @@ local function defaults()
 	data = {
 		_version = VERSION, enabled = true,
 		start = {}, startFirst = false, extraTabName = "", order = {}, hidden = {}, hiddenRows = {},
+		fullAppearance = false,
 		facility = {}, preset = {}, custom = {},
 	}
 	for i, group in ipairs(catalog.Groups) do
@@ -184,6 +185,12 @@ end
 function public.extraTabName(value)
 	if value ~= nil then data.extraTabName = value end
 	return data.extraTabName
+end
+
+-- Whether the camp's Change Appearance screen offers every option of the full re-edit.
+function public.fullAppearance(value)
+	if value ~= nil then data.fullAppearance = value end
+	return data.fullAppearance == true
 end
 
 -- Group keys in the order their folders are added to every menu.

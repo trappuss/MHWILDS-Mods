@@ -6,7 +6,7 @@ Mods for Monster Hunter Wilds. Each mod lives in its own folder with its own REA
 
 | Mod | What it does | Version | Requires |
 | --- | --- | --- | --- |
-| [MenusEverywhere](MenusEverywhere/) | Opens the facility menus (Item Box, Smithy, Artian weapons, shop, Melding Pot, Smelting Foundry, village trade, Support Desk, camp and lobby tools) from the pause menu, camp menus or your handler. One folder row per facility, presets per menu, everything toggleable. | 1.1.0 | [REFramework](https://github.com/praydog/REFramework-nightly/releases) |
+| [MenusEverywhere](MenusEverywhere/) | Opens the facility menus (Item Box, Smithy, Artian weapons, shop, Melding Pot, Smelting Foundry, village trade, Support Desk, camp and lobby tools) from the pause menu, camp menus or your handler. One folder row per facility, presets per menu, everything toggleable. Optionally turns the camp Change Appearance screen into the full character editor. | 1.2.0 | [REFramework](https://github.com/praydog/REFramework-nightly/releases) |
 
 ## Installing a mod
 

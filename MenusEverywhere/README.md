@@ -28,6 +28,10 @@ Other options:
 
 - Reorder the folders and untick single entries inside any folder.
 - Close stuck menus: a button that frees the game if a menu ever stops taking input.
+- Change Appearance edits everything: the camp's Change Appearance screen (in a tent, or
+  from the Camp folder anywhere) offers the full character editor, with face, body, voice
+  and saved designs, instead of the short list. No Character Edit Voucher is used. Off by
+  default.
 
 ## Install
 
@@ -48,3 +52,5 @@ Settings are under **REFramework > Script Generated UI > MenusEverywhere** and a
 - The game decides which entries are usable. Entries you have not unlocked, or that the game
   blocks during a quest, stay hidden or greyed out.
 - Tested in single player, in the hub and during quests. Multiplayer lobbies are untested.
+- The full Change Appearance option was tested on the hunter. The Palico uses the same
+  switch but is untested.

@@ -1,4 +1,4 @@
--- What Unlocked Menus can add, as data.
+-- What MenusEverywhere can add, as data.
 --
 -- Every id here is a *fixed* menu id (app.Menu.ID_Fixed), the stable id the game's own
 -- data files use, so the catalog survives game updates that reshuffle the runtime enum.

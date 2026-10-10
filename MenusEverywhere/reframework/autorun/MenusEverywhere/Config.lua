@@ -1,6 +1,6 @@
-local catalog = require("UnlockedMenus.Catalog")
+local catalog = require("MenusEverywhere.Catalog")
 
-local CONFIG_PATH = "UnlockedMenus.json"
+local CONFIG_PATH = "MenusEverywhere.json"
 local VERSION = 2
 local START = "start"                -- section name of the pause menu; camp menus use their surface key
 local CUSTOM = catalog.CustomPreset

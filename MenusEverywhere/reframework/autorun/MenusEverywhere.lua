@@ -1,7 +1,7 @@
-local config = require("UnlockedMenus.Config")
-local builder = require("UnlockedMenus.Builder")
-local returns = require("UnlockedMenus.Returns")
-local gui = require("UnlockedMenus.Gui")
+local config = require("MenusEverywhere.Config")
+local builder = require("MenusEverywhere.Builder")
+local returns = require("MenusEverywhere.Returns")
+local gui = require("MenusEverywhere.Gui")
 
 local CHECK_INTERVAL = 120 -- frames between checks for missing or replaced game data
 local UPDATE_STEP = "UpdateBehavior" -- game logic step; re.on_frame runs with the renderer, where touching menus can crash

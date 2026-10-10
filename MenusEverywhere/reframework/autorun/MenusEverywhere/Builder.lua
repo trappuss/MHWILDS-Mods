@@ -1,9 +1,9 @@
 -- Rewrites the game's in-memory menu lists from the catalog and the player's config.
 -- Nothing on disk is touched; a restart with the mod removed is fully vanilla.
 
-local catalog = require("UnlockedMenus.Catalog")
-local config = require("UnlockedMenus.Config")
-local game = require("UnlockedMenus.Game")
+local catalog = require("MenusEverywhere.Catalog")
+local config = require("MenusEverywhere.Config")
+local game = require("MenusEverywhere.Game")
 
 local public = {}
 local this = {
@@ -258,7 +258,7 @@ function public.apply()
 	end)
 	if not ok then
 		this.status = "error: " .. tostring(result)
-		log.error("[UnlockedMenus] " .. tostring(result))
+		log.error("[MenusEverywhere] " .. tostring(result))
 		return true
 	end
 	if result then this.status = "active" end

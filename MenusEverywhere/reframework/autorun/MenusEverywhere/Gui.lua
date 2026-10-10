@@ -4,10 +4,10 @@
 --   one section per menu (pause menu, then each camp or handler menu), each with presets
 --   folder contents and order, shared by every menu
 
-local catalog = require("UnlockedMenus.Catalog")
-local config = require("UnlockedMenus.Config")
-local game = require("UnlockedMenus.Game")
-local builder = require("UnlockedMenus.Builder")
+local catalog = require("MenusEverywhere.Catalog")
+local config = require("MenusEverywhere.Config")
+local game = require("MenusEverywhere.Game")
+local builder = require("MenusEverywhere.Builder")
 
 local public = {}
 local this = { dirty = false, titles = {} }
@@ -216,7 +216,7 @@ end
 
 function public.render()
 	re.on_draw_ui(function()
-		if imgui.tree_node("Unlocked Menus") then
+		if imgui.tree_node("MenusEverywhere") then
 			local ok, err = pcall(draw)
 			if not ok then imgui.text("UI error: " .. tostring(err)) end
 			imgui.tree_pop()

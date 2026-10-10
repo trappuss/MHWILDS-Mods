@@ -1,4 +1,4 @@
-# Unlocked Menus
+# MenusEverywhere
 
 A REFramework mod for Monster Hunter Wilds that brings the facility menus to you: Item Box,
 Smithy, Artian weapons, shop, Melding Pot, Smelting Foundry, village trade, Support Desk,
@@ -36,8 +36,8 @@ Requires [REFramework](https://github.com/praydog/REFramework-nightly/releases).
 Copy the `reframework` folder from this folder into the game folder. With Fluffy Mod Manager,
 zip this folder's contents (`modinfo.ini` and `reframework`) and install that.
 
-Settings are under **REFramework > Script Generated UI > Unlocked Menus** and are saved to
-`reframework/data/UnlockedMenus.json`. Changes apply the next time a menu is opened.
+Settings are under **REFramework > Script Generated UI > MenusEverywhere** and are saved to
+`reframework/data/MenusEverywhere.json`. Changes apply the next time a menu is opened.
 
 ## Notes
 

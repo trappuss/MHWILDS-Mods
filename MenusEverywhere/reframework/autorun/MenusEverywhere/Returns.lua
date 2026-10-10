@@ -153,7 +153,7 @@ function public.update()
 	local ok, err = pcall(function()
 		manager:onClosedOpenGUI(launched.id, launched.owner, this.pauseMenu, launched.check, launched.func)
 	end)
-	if not ok then log.error("[UnlockedMenus] " .. tostring(err)) end
+	if not ok then log.error("[MenusEverywhere] " .. tostring(err)) end
 end
 
 return public

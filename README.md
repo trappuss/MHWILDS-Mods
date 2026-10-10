@@ -19,6 +19,10 @@ folder inside it into the game folder (next to `MonsterHunterWilds.exe`).
 2. Add a row to the catalogue above: name linked to the folder, a one or two sentence
    description, version, and what it requires.
 
+## Posting on Nexus Mods
+
+Nexus descriptions use BBCode, not Markdown. See [NEXUS.md](NEXUS.md).
+
 ## License
 
 [MIT](LICENSE)
